@@ -3,6 +3,8 @@
 ### Install Master
 ```bash
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC='--flannel-backend=none --disable=traefik' sh -
+
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 ```
 
 ```bash
